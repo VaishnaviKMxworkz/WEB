@@ -1,0 +1,205 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(images/image1.jpg);
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 15px;
+    text-align: center;
+    color: aliceblue;
+}
+#navbar{
+    background: rgb(188, 221, 224);
+}
+#logo{
+    font-size: 35px;
+    font-weight: 700;
+    color: black;
+    text-shadow: 0px 1px 1px black;
+    margin-bottom: 5px;
+    font-family: 'Lato', sans-serif;
+}
+
+#logo span{    color: #bec62d;
+}
+
+.navbar-toggler span{
+    color: #bec62d;
+}
+
+.navbar-nav{
+    margin-left: 20px;
+
+}
+
+.nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.6s  ease;
+    background-color: aliceblue;
+
+}
+
+.nav-item .nav-link:hover{
+    background: #bec62d ;
+    color: white;
+}
+#navbar form button{
+    background: orange;
+    color: white;
+    border: none;
+
+}
+.header img{
+    width: 100px;
+    float: left;
+}
+.dropdown{
+    width: 100px;
+    padding: 8px 0;
+    outline: none !important;
+    border-radius: 50px;
+    color: aliceblue;
+    float: right;
+}
+.header h1{
+    padding-top: 450px;
+    padding-bottom: 0;
+    font-size: 65px;
+
+}
+.header p{
+    margin: 18px 0px;
+}
+.input-group{
+    width: 90px;
+    max-width: 500px;
+    border-radius: 30px;
+    background: white;
+    margin: auto;
+    padding: 2px;
+}
+.form-control{
+    border: 0 !important;
+    border-radius: 30px !important;
+    margin: 2px;
+    box-shadow: none !important;
+}
+.input-group-text btn{
+    width: 100px;
+    background-image: linear-gradient(#00ff7e,#1f3d90);
+    border: 0 !important;
+    color: white !important;
+    padding: 0 25px !important;
+    border-radius: 30px !important;
+    box-shadow: none !important;
+}
+.features{
+    padding: 100px 0;
+    background-color: antiquewhite;
+}
+h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.price{
+    width: 50px;
+    height: 50px;
+    background: #ff5722;
+    color: white;
+    font-weight: 600;
+    border-radius: 50%;
+    padding: 10px;
+    box-shadow: 0 0 10 px 1px rgba(37,73,214,0.18);
+    position:absolute;
+    left: 20px;
+    bottom: -50px;
+}
+.feature-img{
+    position: relative;
+    height: 200px;
+    width: 200px;
+}
+
+.features .fa{
+    font-size: 15px;
+    color: #ff5722;
+}
+.feature-details{
+    padding: 20px;
+    text-align: justify;
+}
+.feature-details h4{
+    font-weight: 600;
+    margin-top: 20px;
+}
+.feature-details .fa{
+    margin-right: 5px;
+}
+.gallery{
+    padding: 100px 0;
+    background-color: rgb(205, 243, 243);
+}
+.gallery-box img{
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.gallery-box img:hover{
+    transform: scale(1.1);
+}
+.gallery-box h4{
+    display: block;
+    font-weight: 600;
+    font-size: 20px;
+    position: absolute;
+    top:50%;
+    color: aliceblue;
+    text-shadow: -2px 2px 2px #000;
+    left: 30%;
+    transform: translate(-50% -50%);
+}
+.gallery-box {
+    position: relative;
+    margin-bottom: 30px;
+}
+.card card-body{
+    padding: 10px;
+}
+.galleryy{
+    padding: 100px;
+    background-color: hsl(164, 14%, 37%);
+}
+.gallery-box1 img{
+      width: 100%;
+      border-radius: 10px;
+      
+}
+.banner{
+    padding-top: 10%;
+}
+.banner-highlights{
+    padding: 70px 0;
+    background: rgba(64, 65, 65, 0.7);
+    text-align: center;
+    color: white;
+}
+.booking-btn{
+    width: 120px;
+    padding: 8px 0;
+    outline: none !important;
+    border-radius: 2px solid #f2eded;
+    border-radius: 50px;
+    color: rgb(20, 20, 21);
+    margin-top: 20px;
+}
